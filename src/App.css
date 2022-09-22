@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 35px;
+}
+
+.bg-card {
+  display: flex;
+  height: 100vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-size: cover;
+
+  font-family: roboto;
+}
+ul {
+}
+li {
+  list-style-type: none;
+}
+.list-item {
+  color: #0f172a;
+  font-weight: 600;
+  font-family: roboto;
+  font-size: 20px;
+}
+.no-input-img {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.card-1 {
+  background-color: #ffc533;
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.card-1-h {
+  font-size: 25px;
+  background-color: #ffbf1f;
+  padding: 25px;
+  color: #0f172a;
+
+  margin: 10px;
+}
+
+.card-2 {
+  background-color: #0f172a;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card-2-h {
+  font-size: 25px;
+  padding: 25px;
+  color: #ffbf1f;
+
+  margin: 10px;
+  text-align: center;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 35px;
+}
+
+.input {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 0px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.btn {
+  margin-right: 20px;
+  padding-left: 15px;
+  padding: 10px;
+  padding-right: 15spx;
+  font-weight: 600;
+  color: #0f172a;
+  background-color: #ffc533;
+  border-radius: 4px;
+  outline: none;
+}

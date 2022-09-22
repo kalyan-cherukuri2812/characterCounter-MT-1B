@@ -11,7 +11,8 @@ class App extends Component {
     this.setState({input: event.target.value})
   }
 
-  add = () => {
+  add = event => {
+    event.preventDefault()
     const {input} = this.state
     const item = {text: input, id: v4()}
     this.setState(prev => ({list: [...prev.list, item], input: ''}))
